@@ -29,8 +29,9 @@ public class PIMPage {
         PageFactory.initElements(driver,this);
     }
 
-    public void addEmployee(String firstName, String lastName, String userName, String passWord){
+    public void addEmployee(String firstName, String lastName, String userName, String passWord) throws InterruptedException {
         pimButton.get(1).click(); //Select PIM tab from Menu bar
+        Thread.sleep(3000);
         button.get(2).click(); //Click on Add button
         txtFirstName.sendKeys(firstName);
         txtLastName.sendKeys(lastName);
