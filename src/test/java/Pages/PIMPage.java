@@ -1,3 +1,5 @@
+package Pages;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -56,23 +58,23 @@ public class PIMPage {
         button.get(1).click(); //Click on Save button
     }
 
-    public void editEmployee(String employeeName, String employeeOtherId) throws InterruptedException {
-        pimButton.get(1).click(); //Select PIM tab from Menu bar
-        Thread.sleep(3000);
-        employeeListTab.get(1).click();
-        Thread.sleep(500);
-        txtEmployeeName.sendKeys(employeeName);
-        Thread.sleep(500);
-        button.get(1).click();
-        Thread.sleep(500);
-        iconButtons.get(4).click();
-        Thread.sleep(500);
-        txtFields.get(5).sendKeys(employeeOtherId);
-        Thread.sleep(500);
-        radioButtons.get(0).click();
-        Thread.sleep(500);
-        button.get(0).click();
-        Thread.sleep(500);
-    }
+//    public void editEmployee(String employeeName, String employeeOtherId) throws InterruptedException {
+//        pimButton.get(1).click(); //Select PIM tab from Menu bar
+//        Thread.sleep(3000);
+//        employeeListTab.get(1).click();
+//        Thread.sleep(500);
+//        txtEmployeeName.sendKeys(employeeName);
+//        Thread.sleep(500);
+//        button.get(1).click();
+//        Thread.sleep(500);
+//        iconButtons.get(4).click();
+//        Thread.sleep(500);
+//        txtFields.get(5).sendKeys(employeeOtherId);
+//        Thread.sleep(500);
+//        radioButtons.get(0).click();
+//        Thread.sleep(500);
+//        button.get(0).click();
+//        Thread.sleep(500);
+//    }
 }
 

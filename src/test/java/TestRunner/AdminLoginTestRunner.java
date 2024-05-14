@@ -1,11 +1,12 @@
-import org.checkerframework.checker.index.qual.PolyUpperBound;
+package TestRunner;
+
+import Configuration.Setup;
+import Pages.LoginPage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.TestNG;
 import org.testng.annotations.Test;
 
-public class LoginTestRunner extends Setup {
+public class AdminLoginTestRunner extends Setup {
     LoginPage loginPage;
 
     @Test(priority = 1)
