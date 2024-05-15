@@ -1,1 +1,24 @@
-[{"firstName":"Eldridge","lastName":"Koch","password":"P@ssword6667","username":"aubrey.veum"},{"firstName":"Jarod","lastName":"Mills","password":"P@ssword6667","username":"marisa.kulas"}]
+[
+  {
+    "username" : "Admin",
+    "password" : "admin123"
+  },
+  {
+    "firstName": "Eldridge",
+    "lastName": "Koch",
+    "password": "P@ssword6667",
+    "username": "aubrey.veum"
+  },
+  {
+    "firstName": "Jarod",
+    "lastName": "Mills",
+    "password": "P@ssword6667",
+    "username": "marisa.kulas"
+  },
+  {
+    "firstName": "Jacqualine",
+    "lastName": "Paucek",
+    "password": "P@ssword6667",
+    "username": "rebekah.schoen"
+  }
+]
