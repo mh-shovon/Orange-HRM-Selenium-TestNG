@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name ="Orange HRM Portal Automation-Master Suite">
+    <suite-files>
+        <suite-file path="SmokeTesting/SmokeSuite.xml">Smoke Suite</suite-file>
+    </suite-files>
+</suite>

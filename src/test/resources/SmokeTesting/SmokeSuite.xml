@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name ="Orange HRM Portal Automation">
+    <test name="Admin Login">
+        <groups>
+            <run>
+                <include name = "Smoke">Smoke Testing</include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestRunner.AdminLoginTestRunner">Admin Login</class>
+        </classes>
+    </test>
+
+<!--    <test name="Create New User">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name = "Smoke">Smoke Testing</include>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="TestRunner.PIMTestRunner">Create New User</class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="New User Login">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name = "Smoke">Smoke Testing</include>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="TestRunner.UserLoginTestRunner">New User Login</class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

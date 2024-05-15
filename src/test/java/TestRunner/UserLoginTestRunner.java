@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class UserLoginTestRunner extends Setup {
     LoginPage loginPage;
-    @Test(priority = 1)
+    @Test(priority = 1, description = "User can login with valid credentials")
     public void doLoginByUserWithValidCredentials() throws InterruptedException, IOException, ParseException {
         loginPage = new LoginPage(driver);
         String username = Utils.getEmployee().get("username").toString();

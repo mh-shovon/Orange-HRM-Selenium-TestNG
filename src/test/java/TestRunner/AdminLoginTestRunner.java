@@ -18,7 +18,7 @@ import java.io.IOException;
 public class AdminLoginTestRunner extends Setup {
     LoginPage loginPage;
 
-    @Test(priority = 1, enabled = false)
+    @Test(priority = 1, description = "Admin can't login without any credentials")
     public void doLoginWithNoCredentials() throws InterruptedException {
         loginPage = new LoginPage(driver);
         Thread.sleep(1000);
@@ -33,7 +33,7 @@ public class AdminLoginTestRunner extends Setup {
 
     }
 
-    @Test(priority = 2, enabled = false)
+    @Test(priority = 2, description = "Admin can't login with wrong credentials")
     public void doLoginWithInvalidCredentials() throws InterruptedException {
         loginPage = new LoginPage(driver);
         Thread.sleep(1000);
@@ -46,7 +46,7 @@ public class AdminLoginTestRunner extends Setup {
         Assert.assertEquals(textActual, textExpected);
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3, groups = "Smoke", description = "Admin can login with valid credentials")
     public void doLoginWithValidCredentials() throws InterruptedException, IOException, ParseException {
         loginPage = new LoginPage(driver);
         Thread.sleep(1000);
